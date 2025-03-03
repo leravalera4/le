@@ -1,0 +1,37 @@
+.cart{
+        display: flex;
+        flex-direction: row;
+        padding-right: 10%;
+        margin-left: 130px;
+}
+
+  .list{
+    font-size: 18px;
+  }
+
+  .panel{
+    width:70%;
+  }
+
+@media (max-width: 768px) {
+    .list {
+      display: none;
+    }
+    .panel{
+      width:100%;
+    }
+
+    .products{
+      width: 45%;
+    }
+
+.cart{
+        display: flex;
+        flex-direction: row;
+        padding-right: 10%;
+        margin-left: 0px;
+}
+
+  }
+
+
